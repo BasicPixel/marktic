@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="marktic: the dumbest markdown SSG" />
+		%sveltekit.head%
+	</head>
+
+	<body class="bg-zinc-900 text-zinc-300 container max-w-2xl mx-auto">
+		<header class="flex items-center justify-between mb-4 py-4 border-b">
+			<div>
+				<a href="/" class="text-2xl no-underline">marktic</a>
+			</div>
+
+			<div class="text-lg">
+				<a href="/about">about</a>
+				<a href="https://github.com/basicpixel/marktic" target="_blank">github</a>
+			</div>
+		</header>
+
+		<main class="py-4">%sveltekit.body%</main>
+	</body>
+</html>
