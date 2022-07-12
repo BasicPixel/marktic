@@ -17,3 +17,9 @@
 		@apply mb-4;
 	}
 }
+
+@layer utilities {
+	.zinc-border {
+		@apply border-zinc-500;
+	}
+}

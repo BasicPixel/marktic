@@ -8,18 +8,22 @@
 		%sveltekit.head%
 	</head>
 
-	<body class="bg-zinc-900 text-zinc-300 container max-w-2xl mx-auto">
-		<header class="flex items-center justify-between mb-4 py-4 border-b">
+	<body class="container max-w-6xl px-4 mx-auto bg-zinc-900 text-zinc-300">
+		<header class="flex items-center justify-between py-4 mb-4 border-b zinc-border">
 			<div>
 				<a href="/" class="text-2xl no-underline">marktic</a>
 			</div>
 
 			<div class="text-lg">
-				<a href="/about">about</a>
+				<a href="https://github.com/basicpixel/marktic#readme" target="_blank">about</a>
 				<a href="https://github.com/basicpixel/marktic" target="_blank">github</a>
 			</div>
 		</header>
 
 		<main class="py-4">%sveltekit.body%</main>
+
+		<footer class="py-4 text-sm text-center border-t zinc-border">
+			made by <a href="https://pixel.is-a.dev" target="_blank">me</a>
+		</footer>
 	</body>
 </html>

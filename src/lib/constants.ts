@@ -1,9 +1,11 @@
-# marktic
+export const defaultText = `# marktic
 
 marktic (**mark**down sta**tic**) the dumbest markdown Static Site Generator. Write
-markdown, generate and publish a static page in seconds. Made using SvelteKit, Tailwind, Supabase and hosted on Vercel.
+markdown, generating and publish a static page in seconds. Made using SvelteKit, Tailwind, Supabase and hosted on Vercel.
 
 _this project is just a hobby side project, don't expect frequent updates and features._
+
+---
 
 ## Usage
 
@@ -17,20 +19,18 @@ Yes, that simple.
 
 To run locally, clone this repository:
 
-```bash
+\`\`\`bash
 git clone https://github.com/basicpixel/marktic
 cd marktic
-```
+\`\`\`
 
 then run
 
-```bash
+\`\`\`bash
 npm i # or use your package manager
 npm run dev # development server
 
 # or a production build
 npm run build
 npm run start
-```
-
----
+\`\`\``;
